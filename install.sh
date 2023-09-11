@@ -4,9 +4,9 @@ export DEBIAN_FRONTEND=noninteractive
 
 # defaults 
 HOSTNAME="localhost"
-USERNAME="admin"
-PASSWORD="password123"
-EMAIL="test@example.com"
+USERNAME="admin_next"
+PASSWORD="q94k@tRkd8rcz$A7xS#U"
+EMAIL="webmaster@promitierra.org"
 STORAGEACCOUNT=""
 CONTAINER=""
 
