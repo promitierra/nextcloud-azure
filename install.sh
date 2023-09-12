@@ -4,8 +4,8 @@ export DEBIAN_FRONTEND=noninteractive
 
 # defaults 
 HOSTNAME="localhost"
-USERNAME="admin_next"
-PASSWORD="q94k@tRkd8rcz$A7xS#U"
+USERNAME="admin"
+PASSWORD="admin"
 EMAIL="webmaster@promitierra.org"
 STORAGEACCOUNT=""
 CONTAINER=""
@@ -55,8 +55,10 @@ mount /mnt/files
 
 #Download Nextcloud
 cd /var/www/html
-wget https://download.nextcloud.com/server/releases/nextcloud-24.0.1.zip
-unzip nextcloud-24.0.1.zip
+# wget https://download.nextcloud.com/server/releases/nextcloud-24.0.1.zip
+wget https://download.nextcloud.com/server/releases/nextcloud-24.0.12.zip
+# unzip nextcloud-24.0.1.zip
+unzip nextcloud-24.0.12.zip
 chown -R root:root nextcloud
 cd nextcloud
 
